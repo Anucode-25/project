@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>flowershop</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body class="bg-warning-subtle">
+
+
+  <nav class="navbar navbar-expand-md shadow-sm py-3" data-bs-theme="dark" style="background-color: #112211;">
+    <div class="container-fluid">
+      <!-- Brand area -->
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa6hke5OraWLjPhrTeJTlj6a1CjhXwVXbgqLnwMc8P3g&s=10"
+          alt="Logo" width="50" height="40" class="d-inline-block align-text-top me-2">
+        <span class="fw-bold">Floral</span>
+      </a>
+
+
+<button class="navbar-toggler" type="button"
+    data-bs-toggle="collapse"
+    data-bs-target="#navbarNav"
+    aria-controls="navbarNav"
+    aria-expanded="false"
+    aria-label="Toggle navigation">
+
+    <span class="navbar-toggler-icon"></span>
+
+</button>
+
+
+      <!-- Navbar Links -->
+      <div class="collapse navbar-collapse justify-content-md-center" id="navbarNav">
+        <ul class="navbar-nav nav-pills my-2 my-md-0">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#features">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#product">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+        <div class="d-none d-md-block" style="width: 180px;"></div>
+      </div>
+    </div>
+  </nav>
+  <div class="position-relative" id="home">
+    <img src="./pics/a-bouquet-of-red-and-yellow-tulips-on-a-white-background-photo.jpeg" class="img-fluid"
+      alt="flower">
+    <div class="position-absolute top-50 start-0 translate-middle-y ps-4 text-dark">
+
+      <h2 class="text-danger">Beautiful Tulips</h2>
+      <p><i> "Fresh. Timeless. Exquisite.
+          We bring the vibrant poetry of the garden directly to your world. <br>
+          Hand-picked, custom-crafted, and designed to make your moments <br>
+          truly beautiful."</i></p>
+      <button type="button" class="btn btn-warning">Shop Now</button>
+    </div>
+  </div>
+
+  <div id="about">
+    <div class="container my-5 ">
+      <h1 class="text-center bg-light p-3 mb-4">
+        About<span class="text-warning  ">Us</span>
+     </h1>
+      <!-- The white container -->
+      <div class="row bg-success text-white shadow-sm rounded p-4 align-items-center">
+
+        <!-- Left Column: Video -->
+        <div class="col-md-6 mb-3 mb-md-0">
+          <div class="ratio ratio-16x9">
+            <video controls class="rounded">
+              <source src="./pics/20406178-uhd_2160_3840_50fps.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+
+        <!-- Right Column: Text -->
+        <div class="col-md-6 px-md-4">
+          <h2 class="fw-bold mb-3">Why Choose Us</h2>
+          <p class="text-white">
+            <b>"At Floral, we believe that flowers are nature’s most beautiful poetry. <br>
+              Born out of a passion for exquisite design and fresh beginnings, <br>
+              we specialize in luxury arrangements that breathe life into any space. <br>
+              Whether celebrating life’s grandest milestones or cherishing a quiet, <br>
+              everyday moment, our hand-selected blooms are crafted to inspire, <br>
+              delight, and leave a lasting impression."</b>
+          </p>
+          <button class="btn btn-dark mt-2">Learn More</button>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+   
+
+  <div class="container mt-5">
+    <h1 class="text-center bg-light p-3 mb-4">
+        Our<span class="text-success ">Features</span>
+     </h1>
+  
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4" id="features">
+
+      <!-- Service 1: Fresh Bouquets -->
+      <div class="col">
+        <div class="card h-100 shadow-sm border-0">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1WoTME_82t9uOw-hBdxGhNietkw9rT2SbsuLAjqWbmA&s=10"
+            class="card-img-top" alt="Fresh Flower Bouquets" style="height: 300px; object-fit: cover;">
+
+          <div class="card-body d-flex flex-column text-center">
+            <h5 class="card-title text-success fw-bold">Fresh Bouquets</h5>
+            <p class="card-text text-muted flex-grow-1 fs-6">
+              Hand-picked seasonal flowers curated daily by expert florists
+              for every unique occasion.
+            </p>
+            <a href="#shop" class="btn btn-outline-success btn-sm mt-3 stretched-link">
+              Browse Collection
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Service 2: Wedding & Events -->
+      <div class="col">
+        <div class="card h-100 shadow-sm border-0">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPF8JWC4iL8DA-uxKYoU2bn2n8wEJtmFoz3NOIxgYFuQ&s=10"
+            class="card-img-top" alt="Wedding Floral Arrangements" style="height: 300px; object-fit: cover;">
+
+          <div class="card-body d-flex flex-column text-center">
+            <h5 class="card-title text-success fw-bold">Wedding & Events</h5>
+            <p class="card-text text-muted flex-grow-1 fs-6">
+              Complete custom floral styling, centerpieces, and setups
+              to bring your dream event to life.
+            </p>
+            <a href="#events" class="btn btn-outline-success btn-sm mt-3 stretched-link">
+              Book Consultation
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Service 3: Same-Day Delivery -->
+      <div class="col">
+        <div class="card h-100 shadow-sm border-0">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxUy6BGiZkhjDAQhvoW2LkJiR01Te3t8O9sZoBTg-zUA&s=10"
+            class="card-img-top" alt="Fast Flower Delivery" style="height: 300px; object-fit: cover;">
+
+          <div class="card-body d-flex flex-column text-center">
+            <h5 class="card-title text-success fw-bold">Same-Day Delivery</h5>
+            <p class="card-text text-muted flex-grow-1 fs-6">
+              Fast, careful, and reliable local delivery ensuring your
+              blossoms arrive fresh and vibrant.
+            </p>
+            <a href="#delivery" class="btn btn-outline-success btn-sm mt-3 stretched-link">
+              Check Availability
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Service 4: Flower Subscriptions -->
+      <div class="col">
+        <div class="card h-100 shadow-sm border-0">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAU2H10hAHS1M9GcVEWIkOcDeLQmrZwz28f0Ouv-8eQA&s"
+            class="card-img-top" alt="Flower Subscription Box" style="height: 300px; object-fit: cover;">
+
+          <div class="card-body d-flex flex-column text-center">
+            <h5 class="card-title text-success fw-bold">Monthly Plan</h5>
+            <p class="card-text text-muted flex-grow-1 fs-6">
+              Enjoy fresh, beautiful arrangements delivered right to your
+              home or office every single month.
+            </p>
+            <a href="#subscribe" class="btn btn-outline-success btn-sm mt-3 stretched-link">
+              Subscribe Now
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- the new products section -->
+  <div class="container mt-5" id="product">
+    <!-- heading -->
+     <h1 class="text-center bg-light p-3 mb-4">
+        Latest<span class="text-danger ">Products</span>
+     </h1>
+     <!-- product cards -->
+<div class="container py-4">
+    <div class="row g-4 justify-content-center">
+        <!-- Added column wrapper to control layout width -->
+
+        <!-- card-1 -->
+        <div class="col-12 col-sm-8 col-md-6 col-lg-4">
+            
+            <!-- Card component with position-relative for correct badge placement -->
+            <div class="card shadow-sm h-100 position-relative border-0 rounded-3 overflow-hidden"
+                 style="transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;"
+                 onmouseenter="this.style.transform='translateY(-0.5rem)'; this.style.boxShadow='0 1rem 3rem rgba(0,0,0,.175)';"
+                 onmouseleave="this.style.transform='translateY(0)'; this.style.boxShadow='0 .125rem .25rem rgba(0,0,0,.075)';">
+
+                <!-- Badge absolute positioning over the image -->
+                <span class="badge bg-danger position-absolute top-0 start-0 m-3 z-3 px-2 py-1.5 fw-bold">-20%</span>
+                
+                <!-- Fixed URL syntax (removed space before w=500) -->
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4TFqzI_3Xhd-kabp3_CisbcLDIoDbqNXU5hHIBwy4VQ&s=10"
+                     class="card-img-top w-100 object-fit-cover" 
+                     height="250" 
+                     alt="Pink Flowers">
+                
+                <div class="card-body text-center d-flex flex-column justify-content-between p-4">
+                    <div>
+                        <h4 class="card-title fw-semibold mb-2">Roses</h4>
+                        <div class="d-flex align-items-center justify-content-center gap-2 mb-3">
+                            <h5 class="text-danger mb-0 fw-bold">₹399</h5>
+                            <del class="text-muted small">₹499</del>
+                        </div>
+                    </div>
+                    
+                    <div class="d-grid mt-auto">
+                        <button class="btn btn-danger py-2 fw-medium">Add to Cart</button>
+                    </div>
+                </div>
+              </div>
+        </div> 
+          <!-- card-2 -->
+          <div class="col-12 col-sm-8 col-md-6 col-lg-4">
+            
+            <!-- Card component with position-relative for correct badge placement -->
+            <div class="card shadow-sm h-100 position-relative border-0 rounded-3 overflow-hidden"
+                 style="transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;"
+                 onmouseenter="this.style.transform='translateY(-0.5rem)'; this.style.boxShadow='0 1rem 3rem rgba(0,0,0,.175)';"
+                 onmouseleave="this.style.transform='translateY(0)'; this.style.boxShadow='0 .125rem .25rem rgba(0,0,0,.075)';">
+
+                <!-- Badge absolute positioning over the image -->
+                <span class="badge bg-danger position-absolute top-0 start-0 m-3 z-3 px-2 py-1.5 fw-bold">-10%</span>
+                
+                <!-- Fixed URL syntax (removed space before w=500) -->
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKVBBrWR52uEcbURPbAhZXdaFrMkS-30CNK5fGQlTFzg&s=10"
+                     class="card-img-top w-100 object-fit-cover" 
+                     height="250" 
+                     alt="Pink Flowers">
+                
+                <div class="card-body text-center d-flex flex-column justify-content-between p-4">
+                    <div>
+                        <h4 class="card-title fw-semibold mb-2">Lily</h4>
+                        <div class="d-flex align-items-center justify-content-center gap-2 mb-3">
+                            <h5 class="text-danger mb-0 fw-bold">₹675</h5>
+                            <del class="text-muted small">₹750</del>
+                        </div>
+                    </div>
+                    
+                    <div class="d-grid mt-auto">
+                        <button class="btn btn-danger py-2 fw-medium">Add to Cart</button>
+                    </div>
+                </div>
+              </div>
+        </div>
+        
+        <!-- card-3 -->
+        <div class="col-12 col-sm-8 col-md-6 col-lg-4">
+            
+            <!-- Card component with position-relative for correct badge placement -->
+            <div class="card shadow-sm h-100 position-relative border-0 rounded-3 overflow-hidden"
+                 style="transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;"
+                 onmouseenter="this.style.transform='translateY(-0.5rem)'; this.style.boxShadow='0 1rem 3rem rgba(0,0,0,.175)';"
+                 onmouseleave="this.style.transform='translateY(0)'; this.style.boxShadow='0 .125rem .25rem rgba(0,0,0,.075)';">
+
+                <!-- Badge absolute positioning over the image -->
+                <span class="badge bg-danger position-absolute top-0 start-0 m-3 z-3 px-2 py-1.5 fw-bold">-12%</span>
+                
+                <!-- Fixed URL syntax (removed space before w=500) -->
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbIZl8ioT5Wg1u9RLv13Wurkedr1LQVCe-Ga-hwoQm4A&s=10"
+                     class="card-img-top w-100 object-fit-cover" 
+                     height="250" 
+                     alt="Pink Flowers">
+                
+                <div class="card-body text-center d-flex flex-column justify-content-between p-4">
+                    <div>
+                        <h4 class="card-title fw-semibold mb-2">Sunflower</h4>
+                        <div class="d-flex align-items-center justify-content-center gap-2 mb-3">
+                            <h5 class="text-danger mb-0 fw-bold">₹785</h5>
+                            <del class="text-muted small">₹895</del>
+                        </div>
+                    </div>
+                    
+                    <div class="d-grid mt-auto">
+                        <button class="btn btn-danger py-2 fw-medium">Add to Cart</button>
+                    </div>
+                </div>
+              </div>
+        </div> 
+         <!-- card-4 -->
+        <div class="col-12 col-sm-8 col-md-6 col-lg-4">
+            
+            <!-- Card component with position-relative for correct badge placement -->
+            <div class="card shadow-sm h-100 position-relative border-0 rounded-3 overflow-hidden"
+                 style="transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;"
+                 onmouseenter="this.style.transform='translateY(-0.5rem)'; this.style.boxShadow='0 1rem 3rem rgba(0,0,0,.175)';"
+                 onmouseleave="this.style.transform='translateY(0)'; this.style.boxShadow='0 .125rem .25rem rgba(0,0,0,.075)';">
+
+                <!-- Badge absolute positioning over the image -->
+                <span class="badge bg-danger position-absolute top-0 start-0 m-3 z-3 px-2 py-1.5 fw-bold">-21%</span>
+                
+                <!-- Fixed URL syntax (removed space before w=500) -->
+                <img src="https://imgcdn.floweraura.com/IMG_7526.jpg"
+                     class="card-img-top w-100 object-fit-cover" 
+                     height="250" 
+                     alt="Pink Flowers">
+                
+                <div class="card-body text-center d-flex flex-column justify-content-between p-4">
+                    <div>
+                        <h4 class="card-title fw-semibold mb-2">Orchids</h4>
+                        <div class="d-flex align-items-center justify-content-center gap-2 mb-3">
+                            <h5 class="text-danger mb-0 fw-bold">₹595</h5>
+                            <del class="text-muted small">₹745</del>
+                        </div>
+                    </div>
+                    
+                    <div class="d-grid mt-auto">
+                        <button class="btn btn-danger py-2 fw-medium">Add to Cart</button>
+                    </div>
+                </div>
+              </div>
+        </div> 
+        
+              <!-- card-5 -->
+
+        <div class="col-12 col-sm-8 col-md-6 col-lg-4">
+            
+            <!-- Card component with position-relative for correct badge placement -->
+            <div class="card shadow-sm h-100 position-relative border-0 rounded-3 overflow-hidden"
+                 style="transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;"
+                 onmouseenter="this.style.transform='translateY(-0.5rem)'; this.style.boxShadow='0 1rem 3rem rgba(0,0,0,.175)';"
+                 onmouseleave="this.style.transform='translateY(0)'; this.style.boxShadow='0 .125rem .25rem rgba(0,0,0,.075)';">
+
+                <!-- Badge absolute positioning over the image -->
+                <span class="badge bg-danger position-absolute top-0 start-0 m-3 z-3 px-2 py-1.5 fw-bold">-10%</span>
+                
+                <!-- Fixed URL syntax (removed space before w=500) -->
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9sFgikOA4Ey4cv_y_lS0AwRtcu2LKfm6LYwbQCHJp-9z5v_LA4VkH3JA&s=10"
+                     class="card-img-top w-100 object-fit-cover" 
+                     height="250" 
+                     alt="Pink Flowers">
+                
+                <div class="card-body text-center d-flex flex-column justify-content-between p-4">
+                    <div>
+                        <h4 class="card-title fw-semibold mb-2">Poeny</h4>
+                        <div class="d-flex align-items-center justify-content-center gap-2 mb-3">
+                            <h5 class="text-danger mb-0 fw-bold">₹4,499</h5>
+                            <del class="text-muted small">₹4,999</del>
+                        </div>
+                    </div>
+                    
+                    <div class="d-grid mt-auto">
+                        <button class="btn btn-danger py-2 fw-medium">Add to Cart</button>
+                    </div>
+                </div>
+              </div>
+        </div> 
+            
+        <!-- card-6 -->
+
+           <div class="col-12 col-sm-8 col-md-6 col-lg-4">
+            
+            <!-- Card component with position-relative for correct badge placement -->
+            <div class="card shadow-sm h-100 position-relative border-0 rounded-3 overflow-hidden"
+                 style="transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;"
+                 onmouseenter="this.style.transform='translateY(-0.5rem)'; this.style.boxShadow='0 1rem 3rem rgba(0,0,0,.175)';"
+                 onmouseleave="this.style.transform='translateY(0)'; this.style.boxShadow='0 .125rem .25rem rgba(0,0,0,.075)';">
+
+                <!-- Badge absolute positioning over the image -->
+                <span class="badge bg-danger position-absolute top-0 start-0 m-3 z-3 px-2 py-1.5 fw-bold">-18%</span>
+                
+                <!-- Fixed URL syntax (removed space before w=500) -->
+                <img src="https://www.blacktulipflowers.com/wp-content/uploads/2026/07/mixed-gerbera-premium-hand-bouquet_02.webp"
+                     class="card-img-top w-100 object-fit-cover" 
+                     height="250" 
+                     alt="Pink Flowers">
+                
+                <div class="card-body text-center d-flex flex-column justify-content-between p-4">
+                    <div>
+                        <h4 class="card-title fw-semibold mb-2">Gerbera</h4>
+                        <div class="d-flex align-items-center justify-content-center gap-2 mb-3">
+                            <h5 class="text-danger mb-0 fw-bold">₹739</h5>
+                            <del class="text-muted small">₹899</del>
+                        </div>
+                    </div>
+                    
+                    <div class="d-grid mt-auto">
+                        <button class="btn btn-danger py-2 fw-medium">Add to Cart</button>
+                    </div>
+                </div>
+              </div>
+        </div> 
+    </div>  
+</div>
+  </div>
+
+<!-- footer page -->
+
+<footer class="bg-success text-white mt-5 py-4" id="contact">
+    <div class="container">
+        <div class="row">
+
+            <!-- About -->
+            <div class="col-md-4 mb-3">
+                <h4>🌸 Floral</h4>
+                <p>Beautiful flowers for every special moment.</p>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="col-md-4 mb-3">
+                <h5>Quick Links</h5>
+                <a href="#home" class="d-block text-white text-decoration-none mb-2">Home</a>
+                <a href="#about" class="d-block text-white text-decoration-none mb-2">About Us</a>
+                <a href="#features" class="d-block text-white text-decoration-none mb-2">Features</a>
+                <a href="#product" class="d-block text-white text-decoration-none mb-2">Products</a>
+                <a href="#contact" class="d-block text-white text-decoration-none mb-2">Contact</a>
+            </div>
+
+            <!-- Contact -->
+            <div class="col-md-4 mb-3" id="contact">
+                <h5>Contact Us</h5>
+                <p>Email: floralanu@gmail.com</p>
+                <p>Phone: +91 9876543210</p>
+                <p>Location: Chennai, India</p>
+            </div>
+
+        </div>
+
+        <hr>
+
+        <p class="text-center mb-0">
+            © 2026 FlowerShop | All Rights Reserved.
+        </p>
+    </div>
+</footer>
+
+
+
+</body>
+
+</html>
